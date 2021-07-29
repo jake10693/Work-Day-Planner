@@ -13,9 +13,15 @@ function App() {
 
       <form action="">
         <div className="row">
-       <p id="9" className="time-align">  9AM</p><textarea className="time-block" id="9a" type="text" /><button className="saveBtn">Save</button>
+       <p id="9" className="time-align"> 9AM</p><textarea className="time-block" id="9a" type="text" /><button className="saveBtn">Save</button>
           </div>
-          {}
+          {$(".saveBtn").click(function(event){
+
+event.preventDefault()
+var input = $(this).siblings('input').val()
+var label = $(this).siblings('p').text()
+localStorage.setItem(label, input)
+})}
         <div className="row">
           <p id="10"className="time-align">10AM</p><textarea className="time-block" id="10a" type="text" /><button className="saveBtn">Save</button>
           </div>
@@ -26,10 +32,10 @@ function App() {
           <p id="12"className="time-align">12PM</p><textarea className="time-block" id="12p" type="text" /><button className="saveBtn">Save</button>
           </div>
         <div className="row">
-          <p id="13"className="time-align">  1PM</p><textarea className="time-block" id="1p" type="text" /><button className="saveBtn">Save</button>
+          <p id="13"className="time-align"> 1PM</p><textarea className="time-block" id="1p" type="text" /><button className="saveBtn">Save</button>
           </div>
         <div className="row">
-          <p id="14"className="time-align">  2PM</p><textarea className="time-block" id="2p" type="text" /><button className="saveBtn">Save</button>
+          <p id="14"className="time-align"> 2PM</p><textarea className="time-block" id="2p" type="text" /><button className="saveBtn">Save</button>
           </div>
         <div className="row">
           <p id="15"className="time-align">  3PM</p><textarea className="time-block" id="3p" type="text" /><button className="saveBtn">Save</button>
