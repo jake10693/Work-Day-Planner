@@ -1,8 +1,13 @@
 import './App.css';
 import React, {useState} from 'react';
-
+// import { toDos } from './Components/saveButton.js'
 
 function App() {
+
+const date = new Date(Date.UTC(2012, 11, 12, 3, 0, 0))
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'};
+// const todaysDate = date.toLocaleDateString()
+
     const [todo9, setTodo9] = useState('');
     const [todo10, setTodo10] = useState('');
     const [todo11, setTodo11] = useState('');
@@ -46,7 +51,7 @@ function App() {
       <header>
       <h1 className="display-3">Work Day Scheduler</h1>
       <p className="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" className="lead"></p>
+      <p className="lead">{date.toLocaleDateString('en-US', options)}</p>
       </header>
       <div className="container">
 
