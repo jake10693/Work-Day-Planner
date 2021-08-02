@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Work-Day-Planner/static/css/main.42fa3456.chunk.css",
+    "main.js": "/Work-Day-Planner/static/js/main.f2ce06bd.chunk.js",
+    "main.js.map": "/Work-Day-Planner/static/js/main.f2ce06bd.chunk.js.map",
+    "runtime-main.js": "/Work-Day-Planner/static/js/runtime-main.67901a54.js",
+    "runtime-main.js.map": "/Work-Day-Planner/static/js/runtime-main.67901a54.js.map",
+    "static/js/2.bb655e0a.chunk.js": "/Work-Day-Planner/static/js/2.bb655e0a.chunk.js",
+    "static/js/2.bb655e0a.chunk.js.map": "/Work-Day-Planner/static/js/2.bb655e0a.chunk.js.map",
+    "static/js/3.447bd91c.chunk.js": "/Work-Day-Planner/static/js/3.447bd91c.chunk.js",
+    "static/js/3.447bd91c.chunk.js.map": "/Work-Day-Planner/static/js/3.447bd91c.chunk.js.map",
+    "index.html": "/Work-Day-Planner/index.html",
+    "static/css/main.42fa3456.chunk.css.map": "/Work-Day-Planner/static/css/main.42fa3456.chunk.css.map",
+    "static/js/2.bb655e0a.chunk.js.LICENSE.txt": "/Work-Day-Planner/static/js/2.bb655e0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67901a54.js",
+    "static/js/2.bb655e0a.chunk.js",
+    "static/css/main.42fa3456.chunk.css",
+    "static/js/main.f2ce06bd.chunk.js"
+  ]
+}
